@@ -14,7 +14,7 @@ title: ""
 
 **General Motors** | **Embedded Software Developer – External Compute Platforms**
 *April 2025 – Present*
-* **Architected and designed a transport-agnostic C++ networking library** utilizing JSON-RPC, enabling seamless data exchange across varying physical layers and protocols.
+* Architected and designed a transport-agnostic C++ networking library utilizing JSON-RPC, enabling seamless data exchange across varying physical layers and protocols.
 * Spearheaded the architecture of a high-frequency, low-latency C++ platform on Raspberry Pi for real-time vehicle telemetry collection.
 * Engineered a custom lock-free queue using C++ atomics, increasing platform throughput and efficiency by 50% by minimizing thread contention.
 * Architected, designed, and owned a full-stack telemetry filtering pipeline, integrating low-level telemetry collection with cloud-based web applications.
