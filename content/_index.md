@@ -49,4 +49,5 @@ title: ""
 ## EDUCATION
 
 **M.S. in Computer Science** | University of Colorado Boulder | *In Progress*
+
 **B.S. in Electrical and Computer Engineering** | University of Louisville | *2021*
