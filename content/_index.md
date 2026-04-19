@@ -4,10 +4,11 @@ title: ""
 
 ## TECHNICAL SKILLS
 
-* **Languages:** C++ (Expert), Python, Rust, C, SQL, Bash.
-* **Distributed Systems & Networking:** Transport-agnostic Architecture, TCP/IP, UDP, RPC (JSON-RPC, Protobuf), WebSockets, HTTP, SOME/IP, Ethernet.
-* **Infrastructure & DevOps:** Docker, Podman, CI/CD (GitHub Actions, Jenkins), Linux Kernel Optimization (Yocto, eBPF), CMake.
-* **Performance & Validation:** Concurrency (Lock-free queues, Atomics), Unit Testing (Gtest/Gcov, Pytest), Valgrind, Perf, GDB.
+**Languages:** C++ (modern, systems-level), Python (scripting), Rust (working knowledge), Bash  
+**Systems & Networking:** Multithreaded systems, async client/server design, TCP/IP, UDP, HTTP, WebSockets, JSON-RPC, Protobuf, IPC  
+**Concurrency & Performance:** Lock-free SPSC queues, atomics & memory ordering, profiling, latency/throughput optimization, GDB, Valgrind  
+**Architecture & Reliability:** Event-driven design, API versioning, legacy system refactoring, fault isolation, testability  
+**Tooling & Platforms:** Linux services/daemons, CMake, Docker, CI/CD (GitHub Actions, Jenkins), GoogleTest/Gcov, Pytest
 
 ## PROFESSIONAL EXPERIENCE
 
