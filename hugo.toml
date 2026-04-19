@@ -1,0 +1,42 @@
+baseURL = "https://chasehof.github.io/chase-resume/"
+languageCode = 'en-us'
+title = 'Chase Hoffman'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    description = "Software Developer - High Performance Systems"
+    author = "Chase Hoffman"
+    disableHeaderMenu = true
+    hideSettingsPanel = true
+    
+    # Appearance Settings
+    defaultTheme = "light"
+    disableThemeToggle = true
+    showFullTextContent = true
+
+    # This section controls the header on your home page
+    [params.profileMode]
+        enabled = true
+        title = "Chase Hoffman"
+        subtitle = "Software Developer | High-Performance C++ & Systems"
+        
+        [[params.profileMode.buttons]]
+            name = "View Resume PDF"
+            url = "Chase_Resume.pdf"
+
+    # This section handles your contact info with icons
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/chasehof"
+    
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:chase.hoffman@live.com"
+    
+    [[params.socialIcons]]
+        name = "phone"
+        url = "tel:859-652-6011"
+
+    [params.assets]
+        disableHLJS = false
