@@ -21,14 +21,14 @@ title: ""
 * Collaborated on a bespoke Linux distribution via the Yocto Project, optimizing kernel performance for resource-constrained microprocessors.
 
 **General Motors** | **Software Developer – Autonomous Driver Assist Platform**
-*June 2024 – June 2025*
+*June 2024 – April 2025*
 * Led the development of C++ and Python components for the ADAS platform, accelerating feature delivery and system reliability.
 * Designed and implemented asynchronous HTTP APIs and JSON-RPC interfaces to elevate platform functionality and enable seamless external integration.
 * Engineered Ethernet communication features strictly aligned with AUTOSAR specifications for interoperable Inter-Processor Communication.
 * Conducted comprehensive bench testing and proactively resolved diagnostic bugs, reducing error rates in production systems.
 
-**General Motors** | **Software Engineer – ADAS & Infotainment (TRACK Rotational Program)**
-*June 2022 – June 2023*
+**General Motors** | **Software Developer – ADAS & Infotainment (TRACK Rotational Program)**
+*June 2022 – June 2024*
 * Collaborated on the Rust implementation of safety-critical components, strengthening platform reliability and memory safety.
 * Researched and evaluated optimal software stacks for SOME/IP and Protobuf-based communication, improving system-wide data transfer efficiency.
 * Enhanced CI/CD infrastructure by establishing Jenkins and GitHub Actions pipelines, reducing deployment times and increasing test automation.
