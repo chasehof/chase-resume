@@ -1,5 +1,5 @@
 # Chase Hoffman  
-**Software Engineer | C++ Systems & Vehicle Software**
+**Software Engineer | High Performance C++ Systems**
 
 ---
 
