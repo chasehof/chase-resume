@@ -1,8 +1,3 @@
-# Chase Hoffman  
-**Software Engineer | High Performance C++ Systems**
-
----
-
 ## TECHNICAL SKILLS
 
 **Languages:** C++ (14/17/20), Python, Lua, Rust (working knowledge)
