@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://chasehof.github.io/chase-resume/"
 languageCode = 'en-us'
 title = 'Chase Hoffman'
 theme = "PaperMod"
