@@ -127,19 +127,19 @@
         <section class="section">
             <h2>TECHNICAL SKILLS</h2>
             <div class="skills">
-                <strong>Languages:</strong> C++ (modern, systems-level), Python (scripting), Rust (working knowledge), Bash
+                <strong>Languages:</strong> C++ (14/17/20), Python, Lua, Rust (working knowledge)
             </div>
             <div class="skills">
-                <strong>Systems & Networking:</strong> Multithreaded systems, async client/server design, TCP/IP, UDP, HTTP, WebSockets, JSON-RPC, Protobuf, IPC
+                <strong>Automotive & Embedded:</strong> Adaptive AUTOSAR, MISRA C++, Linux, RTOS (QNX), CAN, DOIP
             </div>
             <div class="skills">
-                <strong>Concurrency & Performance:</strong> Lock-free SPSC queues, atomics & memory ordering, profiling, latency/throughput optimization, GDB, Valgrind
+                <strong>Systems & Communication:</strong> TCP/IP, Ethernet, JSON-RPC, Protobuf, IPC, transport-agnostic architectures
             </div>
             <div class="skills">
-                <strong>Architecture & Reliability:</strong> Event-driven design, API versioning, legacy system refactoring, fault isolation, testability
+                <strong>Architecture & Concurrency:</strong> Multithreaded systems, event-driven design, lock-free data structures, low-latency systems
             </div>
             <div class="skills">
-                <strong>Tooling & Platforms:</strong> Linux services/daemons, CMake, Docker, CI/CD (GitHub Actions, Jenkins), GoogleTest/Gcov, Pytest
+                <strong>Tooling:</strong> CMake, Docker, GDB, Valgrind, Perf, Jenkins, GitHub Actions, GoogleTest
             </div>
         </section>
 
@@ -148,52 +148,49 @@
 
             <div class="job">
                 <div class="job-header">
-                    <span class="company">General Motors</span> | <span class="position">Embedded Software Developer – External Compute Platforms</span>
+                    <span class="company">General Motors</span> | <span class="position">Senior Embedded Software Engineer</span>
                     <span class="dates">April 2025 – Present</span>
                 </div>
                 <ul>
-                    <li>Architected and designed a transport-agnostic C++ networking library utilizing JSON-RPC, enabling seamless data exchange across varying physical layers and protocols.</li>
-                    <li>Spearheaded the architecture of a high-frequency, low-latency C++ platform on Raspberry Pi for real-time vehicle telemetry collection.</li>
-                    <li>Engineered a custom lock-free queue using C++ atomics, increasing platform throughput and efficiency by 50% by minimizing thread contention.</li>
-                    <li>Architected, designed, and owned a full-stack telemetry filtering pipeline, integrating low-level telemetry collection with cloud-based web applications.</li>
-                    <li>Collaborated on a bespoke Linux distribution via the Yocto Project, optimizing kernel performance for resource-constrained microprocessors.</li>
+                    <li>Architected and owned a C++ edge telemetry engine with embedded Lua execution for dynamic runtime logic, enabling remote orchestration and rule deployment via Azure IoT Hub.</li>
+                    <li>Owned core C++ telemetry component integrating Boost lock-free SPSC queues for high-frequency ingestion and deterministic low-latency processing under concurrency.</li>
+                    <li>Collaborated on a Yocto-based Linux image for Raspberry Pi targets and integrated system-level components for embedded deployment.</li>
+                    <li>Architected a transport-agnostic C++ IPC framework using JSON-RPC to decouple vehicle compute components from underlying transport layers for consistent inter-component communication.</li>
                 </ul>
             </div>
 
             <div class="job">
                 <div class="job-header">
-                    <span class="company">General Motors</span> | <span class="position">Software Developer – Autonomous Driver Assist Platform</span>
-                    <span class="dates">June 2024 – June 2025</span>
+                    <span class="company">General Motors</span> | <span class="position">Software Developer – Autonomous Driver Assist Platform (ADAS)</span>
+                    <span class="dates">June 2023 – April 2025</span>
                 </div>
                 <ul>
-                    <li>Led the development of C++ and Python components for the ADAS platform, accelerating feature delivery and system reliability.</li>
-                    <li>Designed and implemented asynchronous HTTP APIs and JSON-RPC interfaces to elevate platform functionality and enable seamless external integration.</li>
-                    <li>Engineered Ethernet communication features strictly aligned with AUTOSAR specifications for interoperable Inter-Processor Communication.</li>
-                    <li>Conducted comprehensive bench testing and proactively resolved diagnostic bugs, reducing error rates in production systems.</li>
+                    <li>Optimized SoC startup latency by profiling dependency instantiation and refactoring system initialization sequence.</li>
+                    <li>Engineered persistent Key-Value storage in the Run-Time Environment (RTE) for configuration retention across ignition cycles.</li>
+                    <li>Owned and maintained system configuration daemon handling ingestion, validation, and lifecycle management of vehicle calibration and configuration parameters.</li>
                 </ul>
             </div>
 
             <div class="job">
                 <div class="job-header">
-                    <span class="company">General Motors</span> | <span class="position">Software Engineer – ADAS & Infotainment (TRACK Rotational Program)</span>
+                    <span class="company">General Motors</span> | <span class="position">Software Developer – Infotainment Platforms</span>
                     <span class="dates">June 2022 – June 2023</span>
                 </div>
                 <ul>
-                    <li>Collaborated on the Rust implementation of safety-critical components, strengthening platform reliability and memory safety.</li>
-                    <li>Researched and evaluated optimal software stacks for SOME/IP and Protobuf-based communication, improving system-wide data transfer efficiency.</li>
-                    <li>Enhanced CI/CD infrastructure by establishing Jenkins and GitHub Actions pipelines, reducing deployment times and increasing test automation.</li>
-                    <li>Established Gcov and Gtest unit testing frameworks, drastically increasing code coverage for the infotainment data platform.</li>
+                    <li>Integrated SOME/IP and Protobuf stacks for communication between infotainment and safety-critical domains.</li>
+                    <li>Developed unit and integration tests for a distributed data middleware system (Zenoh), validating message flow and communication reliability across components.</li>
+                    <li>Contributed to Rust-based SOME/IP to custom protocol conversion components focused on memory safety and robustness.</li>
+                    <li>Supported CI/CD pipelines using Jenkins and GitHub Actions and maintained GoogleTest-based unit testing infrastructure.</li>
                 </ul>
             </div>
 
             <div class="job">
                 <div class="job-header">
-                    <span class="company">Diversified Automation</span> | <span class="position">Electrical Engineer Co-op</span>
-                    <span class="dates">August 2018 – May 2020</span>
+                    <span class="company">Diversified Automation</span> | <span class="position">Electrical Engineer</span>
+                    <span class="dates">Aug 2018 – May 2020</span>
                 </div>
                 <ul>
-                    <li>Developed control systems for automated parcel sortation facilities, increasing operational efficiency.</li>
-                    <li>Wrote scripts to automate the generation of electrical schematics, significantly reducing design time.</li>
+                    <li>Designed industrial control systems and automated electrical schematic generation via Python, reducing manual engineering effort.</li>
                 </ul>
             </div>
         </section>
@@ -201,15 +198,15 @@
         <section class="section">
             <h2>TECHNICAL PROJECTS</h2>
             <div class="job">
-                <div class="job-header">Terminal-Based Performance Profiler (C++)</div>
+                <div class="job-header">Terminal-Based Performance Profiler (C++) | In Progress</div>
                 <ul>
-                    <li>Engineered a CLI profiling tool to provide real-time insights on application performance metrics: cache affinity, lock contention, OS trapping, and heap churn.</li>
+                    <li>CLI tool analyzing runtime behavior including lock contention, scheduling jitter, and memory churn in multithreaded systems.</li>
                 </ul>
             </div>
             <div class="job">
                 <div class="job-header">Computer Vision Chess Clock (C++ / Raspberry Pi)</div>
                 <ul>
-                    <li>Designed an automated chess clock utilizing a Raspberry Pi and camera, implementing computer vision algorithms to detect board state changes.</li>
+                    <li>Built real-time board state detection system using OpenCV to trigger automated chess timing events.</li>
                 </ul>
             </div>
         </section>
@@ -224,7 +221,7 @@
             </div>
             <div class="job">
                 <div class="job-header">
-                    <span class="company">B.S. in Electrical and Computer Engineering</span> | University of Louisville
+                    <span class="company">B.A. in Electrical and Computer Engineering</span> | University of Louisville
                     <span class="dates">2021</span>
                 </div>
             </div>

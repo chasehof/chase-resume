@@ -63,4 +63,4 @@
 ## EDUCATION
 
 **M.S. in Computer Science** | University of Colorado Boulder | In Progress  
-**MEng in Electrical and Computer Engineering** | University of Louisville  
+**B.S. in Electrical and Computer Engineering** | University of Louisville  

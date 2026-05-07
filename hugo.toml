@@ -1,4 +1,4 @@
-baseURL = "https://chasehof.github.io/chase-resume/"
+baseURL = "/"
 languageCode = 'en-us'
 title = 'Chase Hoffman'
 theme = "PaperMod"
@@ -17,7 +17,7 @@ theme = "PaperMod"
 
     # This section controls the header on your home page
     [params.profileMode]
-        enabled = true
+        enabled = false
         title = "Chase Hoffman"
         subtitle = "Software Developer | High-Performance C++ & Systems"
         
