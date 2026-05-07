@@ -1,10 +1,11 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const fs = require('fs');
 const path = require('path');
 
 (async () => {
   const browser = await puppeteer.launch({
     headless: 'new',
+    executablePath: '/usr/bin/google-chrome-stable',
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
   
