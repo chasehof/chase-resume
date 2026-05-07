@@ -10,8 +10,8 @@ const path = require('path');
   
   const page = await browser.newPage();
   
-  // Load the current built homepage so the PDF reflects the newest resume content.
-  const resumePath = path.join(__dirname, '../public/index.html');
+  // Load the resume template copied into the public directory for PDF generation.
+  const resumePath = path.join(__dirname, '../public/resume-pdf.html');
   const resumeUrl = `file://${resumePath}`;
   await page.goto(resumeUrl, { waitUntil: 'networkidle0' });
   
