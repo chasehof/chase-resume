@@ -17,13 +17,13 @@ theme = "PaperMod"
 
     # This section controls the header on your home page
     [params.profileMode]
-        enabled = false
+        enabled = true
         title = "Chase Hoffman"
         subtitle = "Software Developer | High-Performance C++ & Systems"
         
         [[params.profileMode.buttons]]
             name = "View Resume PDF"
-            url = "/Chase_Resume.pdf"
+            url = "Chase_Resume.pdf"
 
     # This section handles your contact info with icons
     [[params.socialIcons]]
