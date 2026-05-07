@@ -4,7 +4,7 @@
 
 **Automotive & Embedded:** Adaptive AUTOSAR, MISRA C++, Linux, RTOS (QNX), CAN, DOIP
 
-**Systems & Communication:** TCP/IP, Ethernet, JSON-RPC, Protobuf, IPC, transport-agnostic architectures
+**Systems & Communication:** TCP/IP, SOME/IP, Ethernet, JSON-RPC, Protobuf, 
 
 **Architecture & Concurrency:** Multithreaded systems, event-driven design, lock-free data structures, low-latency systems
 

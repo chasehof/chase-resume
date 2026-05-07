@@ -10,11 +10,10 @@ const path = require('path');
   
   const page = await browser.newPage();
   
-  // Read the resume HTML
-  const resumePath = path.join(__dirname, '../public/resume-pdf.html');
-  const fileContent = fs.readFileSync(resumePath, 'utf8');
-  
-  await page.setContent(fileContent);
+  // Load the current built homepage so the PDF reflects the newest resume content.
+  const resumePath = path.join(__dirname, '../public/index.html');
+  const resumeUrl = `file://${resumePath}`;
+  await page.goto(resumeUrl, { waitUntil: 'networkidle0' });
   
   await page.pdf({
     path: path.join(__dirname, '../public/Chase_Resume.pdf'),
