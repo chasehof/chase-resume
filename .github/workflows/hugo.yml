@@ -32,9 +32,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y google-chrome-stable
       - name: Install dependencies
         run: npm install
-      - name: Copy resume template for PDF generation
-        run: cp resume-template.html public/resume-pdf.html
-      - name: Generate PDF
+      - name: Generate PDF from built site
         run: npm run generate-pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
