@@ -14,7 +14,7 @@
 
 ## PROFESSIONAL EXPERIENCE
 
-### General Motors | Senior Embedded Software Engineer  
+### General Motors | Embedded Platform Software Engineer  
 **April 2025 – Present**
 
 - Architected and owned a C++ edge telemetry engine with embedded Lua execution for dynamic runtime logic, enabling remote orchestration and rule deployment via Azure IoT Hub.  
@@ -24,7 +24,7 @@
 
 ---
 
-### General Motors | Software Developer – Autonomous Driver Assist Platform (ADAS)  
+### General Motors | Platform Software Developer – Autonomous Driver Assist Platform (ADAS)  
 **June 2023 – April 2025**
 
 - Optimized SoC startup latency by profiling dependency instantiation and refactoring system initialization sequence.  
@@ -33,7 +33,7 @@
 
 ---
 
-### General Motors | Software Developer – Infotainment Platforms  
+### General Motors | Platform Software Developer – Infotainment Platforms  
 **June 2022 – June 2023**
 
 - Integrated SOME/IP and Protobuf stacks for communication between infotainment and safety-critical domains.
